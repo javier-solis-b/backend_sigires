@@ -1,7 +1,7 @@
 //C:\Users\javis\OneDrive\Documentos\inventory-reagents-inifap\Backend\src\auth\Controllers\solucionesController\solucionDeleteController.js
 import { SolucionesStock } from "../../../Users/Models/SolucionesStock.js";
 import { SolucionRecursos } from "../../../Users/Models/SolucionRecursos.js";
-import { sequelize } from '../../../../../Backend/src/database.js';
+import { sequelize } from "../../../database.js";
 
 export const solucionDeleteController = async (request, response) => {
     const solucionId = request.params.id;
